@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lyrics.yay</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+   <!--  <div id="draggable" class="ui-widget-content">
+        <img src="content/cd_burn.png" alt="Mixtape" class="dragMe">
+    </div> -->
+    <h1>Jared Eisenhauer Media</h1>
+    <p>Front End Design + Shiny Beats</p>
+<!--
+    <div id="droppable" class="ui-widget-header">
+        <img src="content/nsp3114.png" alt="CD Player">
+    </div>
+-->
+
+
+
+    <a href="#/lyrics">View projects</a>
+
+    <ng-view></ng-view>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="controller.js"></script>
+</body>
+
+</html>

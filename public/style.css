@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+    
+    background-color: #07060C;
+    color: #56575C;
+    
+}
+
+h1 {
+    color: #C9C4C1;
+    background-color: #18171C;
+    font-family: Open Sans Condensed, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+p {
+    color: #0FBABA;
+    font-family: Open Sans Condensed, sans-serif;
+    font-size: 20px;
+}
+
+#draggable { 
+    width: 150px; height: 150px; padding: 0.5em; 
+}
+
+.dragMe {
+    z-index: -1;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#droppable {
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px; 
+}
+
+
+ 
